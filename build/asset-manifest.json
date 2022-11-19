@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b46a45e.css",
+    "main.js": "/static/js/main.1f0d9188.js",
+    "static/media/IMDBlogo.png": "/static/media/IMDBlogo.0a0b644916034014eb82.png",
+    "static/media/blankProfile.png": "/static/media/blankProfile.3c269b79cf7db74d1ca1.png",
+    "index.html": "/index.html",
+    "main.9b46a45e.css.map": "/static/css/main.9b46a45e.css.map",
+    "main.1f0d9188.js.map": "/static/js/main.1f0d9188.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b46a45e.css",
+    "static/js/main.1f0d9188.js"
+  ]
+}
