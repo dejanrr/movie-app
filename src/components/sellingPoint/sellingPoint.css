@@ -1,0 +1,13 @@
+.selling-point {
+  width: 365px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selling-point-head {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #acb4bf;
+}

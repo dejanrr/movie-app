@@ -1,0 +1,48 @@
+.movie-review {
+  width: 100%;
+  display: flex;
+  margin: 15px 0 15px 0;
+  border-bottom: 1px solid #e3e3e3;
+  color: #acb4bf;
+}
+
+.movie-review-left {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  font-size: 14px;
+  text-align: center;
+}
+
+.movie-review-left div {
+  margin: 10px 0 10px 0;
+}
+
+.movie-review-right {
+  display: flex;
+  flex: 4;
+}
+
+.movie-review-author-avatar {
+  width: 75px;
+  border-radius: 50px;
+}
+
+.movie-review-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  color: #acb4bf;
+}
+
+.movie-review-content div {
+  margin-top: 8px;
+}
+
+.movie-review-text {
+  font-size: 14px;
+  line-height: 1.4;
+  word-spacing: 0.2px;
+  color: #000;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,36 @@
+.full-credits-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cast-table {
+  display: none;
+}
+
+td {
+  text-align: center;
+  width: 40%;
+  vertical-align: middle;
+}
+
+td a {
+  text-decoration: none;
+  color: #000;
+}
+
+.cast-table-open {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.crew-table {
+  display: none;
+}
+
+.crew-table-open {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

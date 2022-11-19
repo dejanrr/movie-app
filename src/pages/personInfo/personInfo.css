@@ -1,0 +1,51 @@
+.person-info-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.person-info-details {
+  width: 65%;
+  display: flex;
+}
+
+.person-info-container-left {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.person-info-container-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.biography {
+  line-height: 1.4;
+  word-spacing: 0.5px;
+  margin: 20px 0 20px 0;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  border-spacing: 0px;
+  margin-top: 20px;
+  text-indent: initial;
+}
+
+tr {
+  display: table-row;
+}
+
+td {
+  display: table-cell;
+}
+
+@media only screen and (max-width: 900px) {
+  .person-info-details {
+    flex-direction: column;
+  }
+}

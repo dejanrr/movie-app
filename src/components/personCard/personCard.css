@@ -1,0 +1,7 @@
+.person-card-container {
+  width: 180px;
+}
+
+.person-card-image {
+    max-width: 100%;
+}

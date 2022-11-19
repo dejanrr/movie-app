@@ -1,0 +1,15 @@
+.movie-rating {
+  margin-top: 50px;
+  width: 80px;
+  height: 55px;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 1px;
+}
+
+.movie-rating div {
+  text-align: center;
+  margin-top: 10px;
+}

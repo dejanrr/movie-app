@@ -1,0 +1,12 @@
+.carousel-container {
+  width: 100%;
+  margin: 20px 0 20px 0;
+}
+
+.carousel-item {
+  margin-left: 25px;
+}
+
+.carouselTitle {
+  margin: 20px 0 20px 0;
+}

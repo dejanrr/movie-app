@@ -1,0 +1,18 @@
+.collection-card-container {
+  width: 295px;
+  position: relative;
+}
+
+.collection-backdrop {
+  max-width: 100%;
+  filter: brightness(40%);
+  border-radius: calc(0.25rem - 1px);
+}
+
+.collection-card-title {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: #fff;
+}

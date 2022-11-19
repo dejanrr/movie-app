@@ -1,0 +1,70 @@
+.movie-info-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.movie-info-wrapper {
+  width: 65%;
+  display: flex;
+}
+
+.movie-info-container-left {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.movie-info-container-right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 0px;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+}
+
+td {
+  display: table-cell;
+}
+
+.table-cell-list {
+  list-style: none;
+  padding: 0;
+}
+
+.table-cell-li {
+  display: inline;
+}
+
+.table-cell-li:not(:last-child)::after {
+  content: ",";
+}
+
+.synopsis {
+  line-height: 1.4;
+  word-spacing: 0.5px;
+  margin: 20px 0 20px 0;
+}
+
+.movie-watch-providers {
+  width: 80%;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .movie-info-wrapper {
+    width: 80%;
+    flex-direction: column;
+  }
+}
